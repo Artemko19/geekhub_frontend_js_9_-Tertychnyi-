@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 forms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>Коротко о себе</legend>
+            <p><label>Имя:</label>
+            <input type="text" autofocus></p>
+            <p><label>Фамилия:</label>
+            <input type="text"></p>
+            <p><label>Пол:</label>
+            <input type="radio" name="1">
+            <lable>мужской</lable>
+            <input type="radio" name="1">
+            <lable>женский</lable>
+            </p>
+            <p><label>Возраст</label>
+            <input class="age" type="text">  <lable>лет</lable></p>
+        </fieldset>
+    </form >
+    <form>
+        <fieldset>
+           <legend>Подробнее о себе</legend> 
+           <input type="radio" name="2"><lable> Молодой человек</lable><br/>
+           <input type="radio" name="2"><label> Девушка</label><br/>
+           <input type="date"><lable> Дата рождения</lable><br/>
+           <input type="text"><label> Семейное положение</label><br/>
+           <input type="text"><label>Социальный статус</label><br/>
+           <input type="text"><label>Местожительство</label><br/>
+           <h3>Что вы обычно делаете на выходных:</h3>
+           <input type="checkbox"><label> Сплю</label><br/>
+           <input type="checkbox"><label> Гуляю с друзьями</label><br/>
+           <input type="checkbox"><label> Хожу на рыбалку</label><br/>
+           <input type="checkbox"><label> Играю в игры</label><br/>
+           <h3>Рассказать о формах в книге, посвященной HTML:</h3>
+           <select>
+           <option> Site frequency:</option>
+           </select><br/>
+           <h3>Сколько кнг вы прочитали за свою жизнь</h3>
+           <input type="radio" name="1"> <lable> 0-10</lable><br/>
+           <input type="radio" name="1"> <lable> 11-20</lable><br/>
+           <input type="radio" name="1"><lable> 21-50</lable><br/>
+           <input type="radio" name="1"><lable> 50+</lable><br/>
+           <h3>Ваши коментарии:</h3>
+           <textarea cols="80" rows="10"></textarea><br/>
+           <select>
+           <option> Первая позиция</option>
+           <option>Вторая позиция</option>
+           <option>Третья позиция</option>
+           </select><br/>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>И в заключении</legend>
+            <input class="inputForYou" type="text" placeholder="Это поле было введено для вас"><br/>
+            <p><lable><b>Email:</b><br/></lable><input class="email" type="email"></p>
+            <h3 class="spam">Хотите подписаться на самую модную  рассылку спама?</h3>
+            <em>Выберите категории</em><br/>
+            <br/>
+            <input type="checkbox"><lable> Оборудование</lable><br/>
+            <input type="checkbox"><lable> Как приготовить обеды</lable><br/>
+            <input type="checkbox"><lable> Заработай миллион за два дня!</lable><br/>
+            <h3>На сколько сложная задача:</h3>
+            <input type="radio" name="1"><lable> Совсем нет</lable><br/>
+            <input type="radio" name="1"><lable> Так себе</lable><br/>
+            <input type="radio" name="1"><lable> Еле справились</lable>
+        </fieldset>
+    </form>
+    <p><button type="submit">Отправить</button></p>
+</body>
+</html>

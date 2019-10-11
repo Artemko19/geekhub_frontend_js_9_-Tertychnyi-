@@ -1,0 +1,17 @@
+body {
+    max-width: 700px;
+    margin-left: 200px;
+}
+
+.age {
+    width: 30px;
+}
+.inputForYou {
+    width: 300px;
+}
+.email {
+    width: 300px;
+}
+.spam {
+    margin-bottom: 0;
+}
