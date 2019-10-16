@@ -8,22 +8,29 @@ header {
     text-align: center;
 }
 
-h1 h2 {
+h1, h2 {
     text-align: left
 }
 
-.img1 {
-    height: 250px;
-    width: 350px;
+.img_1_container {
+    max-width: 350px;
     float: left;
-    margin: 5px 15px 10px 20px;
+    margin: 10px 20px 30px 5px;
+    
+
+}
+.img_1 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+   
 }
 
-.img2 {
-    float: center;
-    margin-left: 200px;
-}
+.img_2_container {
+    text-align: center;
+    }
+    
 
-.CentralInternetServers {
+.Central_Internet_Servers {
     margin-top: 65px;
 }
